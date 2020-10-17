@@ -2,12 +2,50 @@
 <html lang="en">
 	<head>
   		<meta charset="UTF-8">
-  		<title>Connect4</title>
-    	<link rel="stylesheet" type="text/css" href="/css/style.css">
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-		<script src="/static/maps.js"></script>
+  		<title>Google Maps API Interface</title>
+  		<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+	    <script
+	      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBy7uynHAcp4OjXZ1Jq6eChQ2bVIxlNieQ&callback=initMap&libraries=&v=weekly"
+	      defer
+	    ></script>
+    	<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script src="/static/index.js"></script>
 	</head>
 	<body>
-		<h1>Hello, World!</h1>
+		<div id="floating-panel">
+      <strong>Start:</strong>
+      <select id="start">
+        <option value="chicago, il">Chicago</option>
+        <option value="st louis, mo">St Louis</option>
+        <option value="joplin, mo">Joplin, MO</option>
+        <option value="oklahoma city, ok">Oklahoma City</option>
+        <option value="amarillo, tx">Amarillo</option>
+        <option value="gallup, nm">Gallup, NM</option>
+        <option value="flagstaff, az">Flagstaff, AZ</option>
+        <option value="winona, az">Winona</option>
+        <option value="kingman, az">Kingman</option>
+        <option value="barstow, ca">Barstow</option>
+        <option value="san bernardino, ca">San Bernardino</option>
+        <option value="los angeles, ca">Los Angeles</option>
+      </select>
+      <br />
+      <strong>End:</strong>
+      <select id="end">
+        <option value="chicago, il">Chicago</option>
+        <option value="st louis, mo">St Louis</option>
+        <option value="joplin, mo">Joplin, MO</option>
+        <option value="oklahoma city, ok">Oklahoma City</option>
+        <option value="amarillo, tx">Amarillo</option>
+        <option value="gallup, nm">Gallup, NM</option>
+        <option value="flagstaff, az">Flagstaff, AZ</option>
+        <option value="winona, az">Winona</option>
+        <option value="kingman, az">Kingman</option>
+        <option value="barstow, ca">Barstow</option>
+        <option value="san bernardino, ca">San Bernardino</option>
+        <option value="los angeles, ca">Los Angeles</option>
+      </select>
+    </div>
+    <div id="right-panel"></div>
+    <div id="map"></div>
 	</body>
 </html>
