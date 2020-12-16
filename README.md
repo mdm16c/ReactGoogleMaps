@@ -22,6 +22,6 @@ This project was created for two primary reasons. The first reason is so I could
 ## How To Use
 1. Navigate to the root folder containing the package.json file
 2. Run the `npm start` command
-3. A window will open in your default browser with an image simlar to what is shown above
+3. A window will open in your default browser with an image simliar to what is shown above
 
 MIT © [Matthew McCracken](https://github.com/mdm16c)
