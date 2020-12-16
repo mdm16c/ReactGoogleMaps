@@ -4,7 +4,7 @@ Simple React App that marks the locations and titles of all the major universiti
 ## Motivation
 This project was created for two primary reasons. The first reason is so I could become more familiar with the React framework, and the second reason is so I could figure out how to make calls to a REST API in JavaScript. Another added benefit of this project is that the Google Maps API has been on my checklist of useful API's to learn for awhile now.
 
-## Code style
+## Code Style
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
  
 ## Screenshot
